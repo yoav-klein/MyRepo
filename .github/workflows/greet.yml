@@ -15,5 +15,5 @@ jobs:
       run: mkdir -p path/to/artifact
     - name: upload
       uses: actions/upload-artifact@master
-     
-        
+      with: name: 'my-artifact'
+   	    
