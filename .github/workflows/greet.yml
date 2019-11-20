@@ -11,5 +11,7 @@ jobs:
     steps:
     - name: Create dir
       uses: actions/checkout@v1
+    - name: mkdir
+      run: mkdir -p path/to/artifact
    
         
