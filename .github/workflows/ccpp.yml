@@ -8,6 +8,6 @@ jobs:
     runs-on: ubuntu-latest
     
     steps:
-    - name: make
-      run: make
+    - name: hello
+      run: echo hello
     
