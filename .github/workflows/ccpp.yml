@@ -8,6 +8,8 @@ jobs:
     runs-on: ubuntu-latest
     
     steps:
+    - name: checkout
+      uses: actions/checkout@v1
     - name: hello
       run: cat hello.c
     
